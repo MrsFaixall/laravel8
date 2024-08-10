@@ -21,7 +21,7 @@
 
 # Laravel 8
 
-Laravel adalah framework PHP yang dirancang untuk membuat pengembangan aplikasi web menjadi lebih mudah dan efisien. Laravel menyediakan berbagai fitur yang kuat dan fleksibel, seperti routing, middleware, ORM (Eloquent), queue, dan banyak lagi.
+Laravel adalah framework PHP yang dirancang untuk membuat pengembangan aplikasi web menjadi lebih mudah dan efisien. Laravel menyediakan berbagai fitur yang kuat dan fleksibel, seperti routing, middleware, ORM (Eloquent), queue, dan banyak lagi. INI MENTAHANnya saja
 
 ## Persyaratan Sistem
 
