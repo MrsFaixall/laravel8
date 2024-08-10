@@ -32,6 +32,10 @@ Ikuti langkah-langkah berikut untuk meng-clone dan menjalankan proyek Laravel in
 
 Clone repository dari GitHub ke mesin lokal Anda menggunakan perintah berikut:
 
-```bash
-git clone https://github.com/username/repository.git
-cd repository
+        git clone https://github.com/username/repository.git
+### 2. Masuk Folder Yang sudah di commit
+        cd repository
+### 3. Instal Dependensi
+Instal semua dependensi PHP yang diperlukan menggunakan Composer:
+
+        composer install
