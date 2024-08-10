@@ -52,11 +52,11 @@ Sebelum memulai, pastikan Anda memenuhi syarat berikut:
 
 1. **Clone repositori:**
 
-       git clone https://github.com/MrsFaixall/laravel8_album.git
+       git clone https://github.com/MrsFaixall/laravel8.git
 
 3. **Masuk ke direktori proyek:**
 
-        cd laravel8_album
+        cd laravel8
 4. **Install dependensi menggunakan Composer:**
 
        ```bash
