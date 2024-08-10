@@ -72,17 +72,16 @@ Ini biasanya terjadi karena Composer belum diinstal atau Anda belum menjalankan 
 Struktur Direktori Laravel
 Berikut adalah beberapa direktori utama dalam proyek Laravel dan fungsinya:
 
-app/ - Berisi logika aplikasi termasuk model, controller, dan lainnya.
-bootstrap/ - Berisi file yang memulai framework.
-config/ - Berisi file konfigurasi untuk aplikasi.
-database/ - Berisi file migrasi, seeder, dan pengaturan database lainnya.
-public/ - Direktori yang dapat diakses secara publik, berisi file index.php.
-resources/ - Berisi view, bahasa, dan aset yang digunakan oleh aplikasi.
-routes/ - Berisi file rute aplikasi.
-storage/ - Berisi file log, cache, dan file lain yang diperlukan.
-tests/ - Berisi file tes unit dan fungsional.
-vendor/ - Berisi dependensi pihak ketiga yang diinstal melalui Composer.
-Dokumentasi Resmi
-Untuk informasi lebih lanjut, Anda dapat merujuk ke dokumentasi resmi Laravel.
+
+### Penjelasan:
+- **Logo Laravel:** Ditampilkan di bagian atas README.md, dengan tautan ke situs resmi Laravel.
+- **Badges:** Menyertakan status build, jumlah unduhan, versi terbaru, dan lisensi yang relevan dengan proyek ini.
+- **Langkah Instalasi:** Detail tentang cloning, instalasi dependensi, konfigurasi, dan menjalankan proyek Laravel.
+- **Mengatasi Error:** Instruksi untuk menangani error yang umum terjadi terkait dengan Composer.
+- **Struktur Direktori:** Ikhtisar tentang struktur direktori dalam proyek Laravel.
+- **Dokumentasi Resmi:** Tautan ke dokumentasi resmi Laravel untuk referensi lebih lanjut.
+
+README.md ini siap digunakan untuk membantu pengguna dalam cloning, mengatur, dan menjalankan proyek Laravel 8 di lokal mereka.
+
 
 
