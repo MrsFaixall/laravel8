@@ -84,6 +84,11 @@ Ubah pengaturan berikut sesuai dengan database Anda:
 Konfigurasi
 Jika Anda menggunakan layanan pihak ketiga (seperti Mail, API, dll.), pastikan untuk mengonfigurasi kredensialnya di file .env.
 
+ketika sudah menggati yang di dalam .env (DB_DATABASE=menyesuikan di phpmyadmin
+        DB_USERNAME=root
+        DB_PASSWORD=password) lalu jalnkan seperti ini:
+
+        php artisan migrate
 Menjalankan Aplikasi
 Anda dapat menjalankan aplikasi menggunakan server built-in Laravel:
 
