@@ -39,3 +39,50 @@ Clone repository dari GitHub ke mesin lokal Anda menggunakan perintah berikut:
 Instal semua dependensi PHP yang diperlukan menggunakan Composer:
 
         composer install
+### 4. Konfigurasi File .env:
+Salin file .env.example menjadi .env:
+        
+        cp .env.example .env
+Kemudian, buka file .env dan sesuaikan konfigurasi database sesuai dengan pengaturan lokal Anda:
+        
+        DB_DATABASE=nama_database
+        DB_USERNAME=user_database
+        DB_PASSWORD=password_database
+### 5. Generate Application Key
+Jalankan perintah berikut untuk menghasilkan application key:
+
+        php artisan key:generate
+### 6.5. Migrasi Database
+Jalankan migrasi untuk membuat tabel di database:
+
+        php artisan migrate
+
+### 7.  Menjalankan Aplikasi
+Jalankan server pengembangan Laravel menggunakan perintah berikut:
+
+        php artisan serve
+Akses aplikasi di browser Anda melalui URL http://localhost:8000.
+
+Mengatasi Error
+Jika Anda mengalami error seperti ini:
+
+        PHP Warning:  require(C:\xampp\htdocs\repository/vendor/autoload.php): failed to open stream: No such file or directory in C:\xampp\htdocs\repository\artisan on line 18
+Ini biasanya terjadi karena Composer belum diinstal atau Anda belum menjalankan `composer install`. Pastikan Composer telah terinstal dengan benar dan Anda telah menjalankan perintah `composer install` di direktori proyek.
+
+Struktur Direktori Laravel
+Berikut adalah beberapa direktori utama dalam proyek Laravel dan fungsinya:
+
+app/ - Berisi logika aplikasi termasuk model, controller, dan lainnya.
+bootstrap/ - Berisi file yang memulai framework.
+config/ - Berisi file konfigurasi untuk aplikasi.
+database/ - Berisi file migrasi, seeder, dan pengaturan database lainnya.
+public/ - Direktori yang dapat diakses secara publik, berisi file index.php.
+resources/ - Berisi view, bahasa, dan aset yang digunakan oleh aplikasi.
+routes/ - Berisi file rute aplikasi.
+storage/ - Berisi file log, cache, dan file lain yang diperlukan.
+tests/ - Berisi file tes unit dan fungsional.
+vendor/ - Berisi dependensi pihak ketiga yang diinstal melalui Composer.
+Dokumentasi Resmi
+Untuk informasi lebih lanjut, Anda dapat merujuk ke dokumentasi resmi Laravel.
+
+
